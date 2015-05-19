@@ -287,6 +287,8 @@ impl Target {
         key!(no_compiler_rt, bool);
         key!(pre_link_args, list);
         key!(post_link_args, list);
+        key!(pre_link_objects, list);
+        key!(post_link_objects, list);
 
         base
     }
